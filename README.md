@@ -1,5 +1,5 @@
 # Gunem-Down
-A 3D Shooter Game created using Unity3d Engine and C#
+A never ending machine gun 3D survival game created using Unity3d Engine and C# <br><br>
 Click here to <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0">donwload the game from Dropbox!</a>
 <br><br>
 <h2>The Game</h2>
