@@ -1,9 +1,9 @@
 # Gunem-Down
-A never ending machine gun 3D survival game created using Unity3d Engine and C# <br><br>
-Click here to <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0">donwload the game from Dropbox!</a>
+A 3D never ending machine gun survival game created using the Unity3D engine and C#<br>
+Click here to <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank">donwload the entire game from Dropbox!</a>
 <br><br>
 <h2>The Game</h2>
-Gun’em Down is a never ending machine gun 3D survival game. The player is
+Gun’em Down is a 3D never ending machine gun survival game. The player is
 a machine gun nest that can rotate (but not move) 360 degrees, and shoots the approaching
 hordes of enemies. Endless waves of monsters spawn in random corners of the screen and
 attack the player. You can try to get a high score but as the apocalypse engulf the earth, you
