@@ -1,5 +1,5 @@
 <div id="up"></div>
-# Gun'em Down
+<h1> Gun'em Down </h1><br>
 A 3D, never-ending, machine gun, survival game created using Unity3D's engine and C#<br>
 <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank">Click here to download the entire game from Dropbox!</a>
 <br><br>
