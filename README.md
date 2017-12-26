@@ -5,8 +5,8 @@ A 3D never-ending machine gun survival game created using Unity3D's engine and C
 <a href="#intro">The Game</a><br>
 <a href="#objectives">Game Objectives</a><br>
 <a href="#feature">Feature List</a><br>
-<a href="#feature_player">&nbsp &nbsp Player</a><br>
-<a href="#feature_monsters">&nbsp &nbsp Monsters</a><br>
+<a href="#feature_player">&nbsp; &nbsp; Player</a><br>
+<a href="#feature_monsters">&ensp; Monsters</a><br>
 <a href="#feature_ammo">&nbsp &nbsp Ammo Boxes</a><br>
 <a href="#feature_crates">&nbsp &nbsp Crates</a><br>
 <a href="#feature_world">&nbsp &nbsp Game World</a><br>
