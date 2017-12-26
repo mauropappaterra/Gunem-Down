@@ -1,9 +1,10 @@
-<div id="up"></div>
-<h1> Gun'em Down </h1><br>
-A 3D, never-ending, machine gun, survival game created using Unity3D's engine and C#<br>
+<h1 id="up"> Gun'em Down </h1>
+A 3D, never-ending, machine gun, survival game created using Unity3D's engine and C#.<br>
 <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank">Click here to download the entire game from Dropbox!</a>
 <br><br>
+<b>CONTENTS</b><br>
 <a href="#intro">Overview</a><br>
+<a href="#intro">Instructions to run the game</a><br>
 <a href="#objectives">Game Objectives</a><br>
 <a href="#feature">Feature List</a><br>
 &nbsp;&nbsp;&nbsp;<a href="#feature_player">Player</a><br>
@@ -18,9 +19,18 @@ A 3D, never-ending, machine gun, survival game created using Unity3D's engine an
 <a href="#physics">Physics</a><br>
 <a href="#assets">List of Assets</a><br>
 <br>
+
+<h2 id="intro">Instructions to run the game</h2>
+Gun’em Down is a 3D never ending machine gun survival game. The player is
+a machine gun nest that can rotate (but not move) 360 degrees, and shoots the approaching hordes of enemies. Endless waves of monsters spawn in random corners of the screen and attack the player. You can try to get a high score but as the apocalypse engulf the earth, you know deep inside that there’s no way out alive on the game!<br><br>
+- Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided</a><br>
+- Execute the file *Play.exe*
+<br><br>
+<a href="#up">Go Up</a>
+<br><br>
 <h2 id="intro">Game Overview</h2>
 Gun’em Down is a 3D never ending machine gun survival game. The player is
-a machine gun nest that can rotate (but not move) 360 degrees, and shoots the approaching hordes of enemies. Endless waves of monsters spawn in random corners of the screen and attack the player. You can try to get a high score but as the apocalypse engulf the earth, you know deep inside that there’s no way out alive on the game!
+a machine gun nest that can rotate (but not move) 360 degrees, and shoots the approaching hordes of enemies. Endless waves of monsters spawn in random corners of the screen and attack the player. You can try to get a high score but as the apocalypse engulf the earth, you know deep inside that there’s no way out alive on the game!<br>
 <br><br>
 <a href="#up">Go Up</a>
 <br><br>
