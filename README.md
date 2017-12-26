@@ -1,4 +1,5 @@
-# <span id="up"> Gun'em Down </span>
+<div id="up"></div>
+# Gun'em Down
 A 3D, never-ending, machine gun, survival game created using Unity3D's engine and C#<br>
 <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank">Click here to download the entire game from Dropbox!</a>
 <br><br>
@@ -102,7 +103,7 @@ a machine gun nest that can rotate (but not move) 360 degrees, and shoots the ap
 <br><br>
 <h2 id="assets">List of Assets</h2>
 Gun’em Down is a 3D never ending machine gun survival game. The player is
-a machine gun nest that can rotate (but not move) 360 degrees, and shoots the approaching hordes of enemies. Endless waves of monsters spawn in random corners of the screen and attack the player. You can try to get a high score but as the apocalypse engulf the earth, you know deep inside that there’s no way out alive on the game!
+a machine gun nest that can rotate (but not move) 360 degrees, and shoots the approaching hordes of enemies. Endless waves of monsters spawn in random corners of the screen and attack the player. You can try to get a high score but as the apocalypse engulf the earth, you know deep inside that there’s no way out alive on the game!<br>
 <ul>
 <li>ss</li>
 <li>ss</li>
