@@ -1,10 +1,10 @@
 <h1 id="up"> Gun'em Down </h1>
 A 3D, never-ending, machine gun, survival game created using Unity3D's engine and C#.<br>
-<a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank">You can download the full game from Dropbox following this link!</a><br><br>
+
 <img src="https://cdn.pixabay.com/photo/2017/01/10/16/05/grey-seal-1969517_960_720.jpg">
 <br><br>
 <b>CONTENTS</b><br>
-<a href="#run">Instructions to run the game</a><br>
+<a href="#run">Instructions to download and run the game</a><br>
 <a href="#intro">Overview</a><br>
 <a href="#objectives">Game Objectives</a><br>
 <a href="#feature">Feature List</a><br>
@@ -22,18 +22,18 @@ A 3D, never-ending, machine gun, survival game created using Unity3D's engine an
 <br>
 
 <h2 id="run">Instructions to run the game</h2>
-You can download this game for free. This is a multiplatform game and it can run on Windows, Mac and Linux systems.<br>
+You can download this game for free. <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank">You can download the full game from Dropbox following this link!</a>. This is a multiplatform game and it can run on Windows, Mac and Linux systems.<br>
 
 <h3>On a MS Windows system</h3>
--Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided</a><br>
+-Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided above</a><br>
 -Execute the file <i>Play.exe</i> <br>
 
 <h3>On a Mac system</h3>
--Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided</a><br>
+-Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided above</a><br>
 -Execute the file <i>Play.exe</i> <br>
 
 <h3>On a Linux system</h3>
--Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided</a><br>
+-Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided above</a><br>
 -Execute the file <i>Play.exe</i>
 <br><br>
 <a href="#up">Go Up</a>
@@ -141,29 +141,26 @@ Unity3D engine. For instance, I tried to keep all assets separated in different 
 recommended on the lecture, and all my scripts separated and as independent form each other
 as possible, I avoided cluttered code, and strived for low coupling for all scripts handling different functionalities and controllers of the game. Furthermore, I could group my scripts in the following manner:
 
-<h3>Control Scripts</h3>
-All scripts that dealt with the direct control of different parts of the game, these are:
-GameController.cs: all functionalities that control the video game interface, including,
-keeping a score displaying ammunition, when the game was over and restart menu.
-PlayerController.cs: all functionalities that control the main character (player object) in this case a machine gun nest. This includes not only rotation of the character but spawning shots and other fire related methods, such as upgrade, downgrade, keep track of ammo, fire rate and a special weapon too.
-ZombieController.cs: all functionalities that control the enemies (zombies), including speed and physics.
+<h4>Control Scripts</h4>
+All scripts that dealt with the direct control of different parts of the game, these are:<br>
+<b><i>GameController.cs</i></b>: all functionalities that control the video game interface, including,
+keeping a score displaying ammunition, when the game was over and restart menu.<br>
+<b><i>PlayerController.cs</i></b>: all functionalities that control the main character (player object) in this case a machine gun nest. This includes not only rotation of the character but spawning shots and other fire related methods, such as upgrade, downgrade, keep track of ammo, fire rate and a special weapon too.<br>
+<b><i>ZombieController.cs</i></b>: all functionalities that control the enemies (zombies), including speed and physics.
 
-<h3>Spawn Scripts</h3>
-All scripts that were used to provide game flow by spawning different object in the game:
-SpawnAmmo.cs: everything necessary to spawn ammo boxes, including where, when and at
-what rate.
-SpawnBoxes.cs: everything necessary to spawn crates, including where, when and at what
-rate.
-SpawnZombies.cs: everything necessary to spawn enemies, including where, when and at
-what rate.
+<h4>Spawn Scripts</h4>
+All scripts that were used to provide game flow by spawning different object in the game:<br>
+<b><i>SpawnAmmo.cs</i></b>: everything necessary to spawn ammo boxes, including where, when and at what rate.<br>
+<b><i>SpawnBoxes.cs</i></b>: everything necessary to spawn crates, including where, when and at what rate.<br>
+<b><i>SpawnZombies.cs</i></b>: everything necessary to spawn enemies, including where, when and at what rate.
 
-<h3>Physics and Collition Scripts</h3>
-All scripts that dealt directly with physics on Unity3D and the collision of different objects in the game:
--Shot.cs: speed and physics used on the projectiles.
--Rotate.cs: tumbler speed and physics used on the rotation of different objects in the game.
--ContactDestroy.cs: this is one of the central scripts to the unfolding of the game. This script deals with the collision of the projectiles with every possible game object and the spawning of special items.
-BoundaryDestroy.cs: this is a workaround for destroying objects that are no longer relevant to the game.
-
+<h4>Physics and Collision Scripts</h4>
+All scripts that dealt directly with physics on Unity3D and the collision of different objects in the game:<br>
+<b><i>Shot.cs</i></b>: speed and physics used on the projectiles.<br>
+<b><i>Rotate.cs</i></b>: tumbler speed and physics used on the rotation of different objects in the game.<br>
+<b><i>ContactDestroy.cs</i></b>: this is one of the central scripts to the unfolding of the game. This script deals with the collision of the projectiles with every possible game object and the spawning of special items.<br>
+<b><i>BoundaryDestroy.cs</i></b>: this is a workaround for destroying objects that are no longer relevant to the game.
+<br>
 <br>
 There is a small number design patterns that I have implemented, directly or indirectly, in my project. The main player could have been a singleton as there is only one instance in the entire game. All three spawn scripts (SpawnAmmo, SpawnBoxes, SpawnZombies) implement
 a factory pattern. Moreover, some sort of observer pattern is implemented to update the shots fired from the PlayerController script to the GameController script in order to display correctinformation on the score and ammunition left. Most of these patterns were implemented using Unity3D build in capabilities, for example using the method Instantiate for the factory pattern. Moreover, object oriented programming is applied all around the game. The simulation models real life and imaginary objects and characters. Inheritance and
