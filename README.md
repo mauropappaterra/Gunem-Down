@@ -218,21 +218,21 @@ and, since there is only one static camera angle, it won’t interfere with the 
 <h2 id="assets">List of Assets</h2>
 Here's a detailed list of all the assets I used from Unity3D asset store<br>
 <ul>
-<li><b>Machine Gun:</b> <a href="https://www.assetstore.unity3d.com/en/#!/content/9872">assetstore.unity3d.com/en/#!/content/9872</a></li>
-<li><b>Monsters:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/30232"> assetstore.unity3d.com/en/#!/content/30232</a></li>
-<li><b>Bullets:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/13866"> assetstore.unity3d.com/en/#!/content/13866</a></li>
-<li><b>Explosions:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/13866"> assetstore.unity3d.com/en/#!/content/13866</a></li>
-<li><b>Creates:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/7392"> assetstore.unity3d.com/en/#!/content/7392</a></li>
-<li><b>Stone Head:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/62690"> assetstore.unity3d.com/en/#!/content/62690</a></li>
-<li><b>Mushroom:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/56263</a></li>
-<li><b>Bottle:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/92549</a></li>
-<li><b>Baseball Bat:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/92549</a></li>
-<li><b>Ammo Box:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/92549</a></li>
-<li><b>Skull:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/5846</a></li>
-<li><b>Tree:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/61874</a></li>
-<li><b>Extra Ammo Box:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/90071</a></li>
-<li><b>Sound FX:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/32834</a></li>
-<li><b>Music:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/32834</a></li>
+<li><b>Machine Gun:</b> <a href="assetstore.unity3d.com/en/#!/content/9872">assetstore.unity3d.com/en/#!/content/9872</a></li>
+<li><b>Monsters:</b><a href="assetstore.unity3d.com/en/#!/content/30232" target="_blank"> assetstore.unity3d.com/en/#!/content/30232</a></li>
+<li><b>Bullets:</b><a href="assetstore.unity3d.com/en/#!/content/13866" target="_blank"> assetstore.unity3d.com/en/#!/content/13866</a></li>
+<li><b>Explosions:</b><a href="assetstore.unity3d.com/en/#!/content/13866" target="_blank"> assetstore.unity3d.com/en/#!/content/13866</a></li>
+<li><b>Creates:</b><a href="assetstore.unity3d.com/en/#!/content/7392" target="_blank"> assetstore.unity3d.com/en/#!/content/7392</a></li>
+<li><b>Idol:</b><a href="assetstore.unity3d.com/en/#!/content/62690" target="_blank"> assetstore.unity3d.com/en/#!/content/62690</a></li>
+<li><b>Mushroom:</b><a href="assetstore.unity3d.com/en/#!/content/56263" target="_blank"> assetstore.unity3d.com/en/#!/content/56263</a></li>
+<li><b>Bottle:</b><a href="assetstore.unity3d.com/en/#!/content/92549" target="_blank"> assetstore.unity3d.com/en/#!/content/92549</a></li>
+<li><b>Baseball Bat:</b><a href="assetstore.unity3d.com/en/#!/content/92549" target="_blank"> assetstore.unity3d.com/en/#!/content/92549</a></li>
+<li><b>Ammo Box:</b><a href="assetstore.unity3d.com/en/#!/content/92549" target="_blank"> assetstore.unity3d.com/en/#!/content/92549</a></li>
+<li><b>Skull:</b><a href="assetstore.unity3d.com/en/#!/content/5846" target="_blank"> assetstore.unity3d.com/en/#!/content/5846</a></li>
+<li><b>Forest:</b><a href="assetstore.unity3d.com/en/#!/content/61874" target="_blank"> assetstore.unity3d.com/en/#!/content/61874</a></li>
+<li><b>Extra Ammo Box:</b><a href="assetstore.unity3d.com/en/#!/content/90071" target="_blank"> assetstore.unity3d.com/en/#!/content/90071</a></li>
+<li><b>Sound FX:</b><a href="assetstore.unity3d.com/en/#!/content/32834" target="_blank"> assetstore.unity3d.com/en/#!/content/32834</a></li>
+<li><b>Music:</b><a href="assetstore.unity3d.com/en/#!/content/32834" target="_blank"> assetstore.unity3d.com/en/#!/content/32834</a></li>
 </ul>
 <br><br>
 <a href="#up">Go Up</a>
