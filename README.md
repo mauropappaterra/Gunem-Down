@@ -60,53 +60,61 @@ This is an outline of all the features in different components of the game.
 <li>A machine gun nest.</li>
 <li>Can only rotate 360 degrees. But cannot move</li>
 <li>Press right arrow key to rotate to the right, press left arrow key to rotate to the left.</li>
-<li>Alternatively, press up arrow key to rotate to the right, and press down arrow key to rotate to the left</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
+<li>Alternatively, press up arrow key to rotate to the right, and press down arrow key to rotate to the left.</li>
+<li>Can shoot bullets using the space bar.</li>
+<li>A sound is played with every bullet shot.</li>
+<li>Bullets are destroyed once they exit the game screen.</li>
+<li>An enemy can destroy the player if it collides with it.</li>
+<li>When the player is destroyed a corresponding animation and sound are played.</li>
+<li>Can upgrade weapons shooting spawning crates.</li>
 </ul>
 <h3 id="feature_monsters">Monsters</h3>
 <ul>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
+<li>Spawn in groups at random corners of the screen.</li>
+<li>Head towards the player.</li>
+<li>When a bullet collides with the monster both are destroyed.</li>
+<li>Each monster gunned down increases the score by +1.</li>
+<li>An animation and corresponding sound is played when the monster is killed.</li>
 </ul>
 <h3 id="feature_ammo">Ammo Boxes</h3>
 <ul>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
+<li>Spawn randomly on the screen.</li>
+<li>A sound is play when an ammo box spawns.</li>
+<li>When shot +10 rounds of ammunitions are added.</li>
+<li>A sound effect is played when an ammo crate is destroyed.</li>
 </ul>
 <h3 id="feature_crates">Crates</h3>
 <ul>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
+<li>Spawn randomly on the screen.</li>
+<li>A sound is played when a new crate spawns.</li>
+<li>When shot, the crate is destroyed and its content is revealed.</li>
+<li>Content is chosen randomly.</li>
+<li>Content can be a power up that upgrades the player's weaponry.</li>
+<li>Content can be a power up that increases the shooting speed of the player.</li>
+<li>Content can be a power up that triggers a special attack!</li>
+<li>Content can also be negative for the user, downgrade weaponry, or even kill you!</li>
+<li>Take a chance every time!</li>
+<li>A sound effect is played when a crate is destroyed and a power up (or penalty) is
+applied.</li>
 </ul>
 <h3 id="feature_camera">Camera</h3>
 <ul>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
+<li>A still camera that shows the player in the centre of the screen.</li>
+<li>The camera angle is from above and tilted to show 3D dimensions of the graphics.</li>
+<li>The camera does not move.</li>
 </ul>
 <h3 id="feature_world">Game World</h3>
 <ul>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
+<li>The game world is enclosed on the screen boundaries as the player does not move.</li>
+<li>Background textures, lights and SFX create a post-apocalyptic atmosphere.</li>
+<li>Engaging background music keeps the player concentrated on the game.</li>
 </ul>
 <h3 id="feature_controller">Game Controller</h3>
 <ul>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
+<li>The player’s score and remaining ammo is shown on top of the screen.</li>
+<li>When an enemy is killed, both the score and ammunition counter are updated instantly.</li>
+<li>When the player is destroyed, a message is shown on the screen “You are dead! Press
+R to start a new game!”. The game restarts when the player presses the R key.</li>
 </ul>
 <br><br>
 <a href="#up">Go Up</a>
@@ -206,22 +214,25 @@ and, since there is only one static camera angle, it won’t interfere with the 
 <br><br>
 <br>
 <img src="https://i.imgur.com/ydzjzyx.png">
-<br><br>
+<br>
 <h2 id="assets">List of Assets</h2>
 Here's a detailed list of all the assets I used from Unity3D asset store<br>
 <ul>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
-<li>ss</li>
+<li><b>Machine Gun:</b> <a href="https://www.assetstore.unity3d.com/en/#!/content/9872">assetstore.unity3d.com/en/#!/content/9872</a></li>
+<li><b>Monsters:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/30232"> assetstore.unity3d.com/en/#!/content/30232</a></li>
+<li><b>Bullets:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/13866"> assetstore.unity3d.com/en/#!/content/13866</a></li>
+<li><b>Explosions:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/13866"> assetstore.unity3d.com/en/#!/content/13866</a></li>
+<li><b>Creates:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/7392"> assetstore.unity3d.com/en/#!/content/7392</a></li>
+<li><b>Stone Head:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/62690"> assetstore.unity3d.com/en/#!/content/62690</a></li>
+<li><b>Mushroom:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/56263</a></li>
+<li><b>Bottle:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/92549</a></li>
+<li><b>Baseball Bat:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/92549</a></li>
+<li><b>Ammo Box:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/92549</a></li>
+<li><b>Skull:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/5846</a></li>
+<li><b>Tree:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/61874</a></li>
+<li><b>Extra Ammo Box:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/90071</a></li>
+<li><b>Sound FX:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/32834</a></li>
+<li><b>Music:</b><a href="https://www.assetstore.unity3d.com/en/#!/content/"> assetstore.unity3d.com/en/#!/content/32834</a></li>
 </ul>
 <br><br>
 <a href="#up">Go Up</a>
