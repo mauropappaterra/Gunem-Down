@@ -1,6 +1,6 @@
 <h1 id="up"> Gun'em Down </h1>
 A 3D, never-ending, machine gun, survival game created using Unity3D's engine and C#.<br>
-<a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank">Click here to download the entire game from Dropbox!</a>
+<a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank">You can download the full game from Dropbox following this link!</a>
 <br><br>
 <b>CONTENTS</b><br>
 <a href="#run">Instructions to run the game</a><br>
@@ -23,15 +23,15 @@ A 3D, never-ending, machine gun, survival game created using Unity3D's engine an
 <h2 id="run">Instructions to run the game</h2>
 You can download this game for free. This is a multiplatform game and it can run on Windows, Mac and Linux systems.<br>
 
-<h3>On a MS Windows System</h3>
+<h3>On a MS Windows system</h3>
 -Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided</a><br>
 -Execute the file <i>Play.exe</i> <br>
 
-<h3>On a Mac System</h3>
+<h3>On a Mac system</h3>
 -Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided</a><br>
 -Execute the file <i>Play.exe</i> <br>
 
-<h3>On a Linux System</h3>
+<h3>On a Linux system</h3>
 -Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided</a><br>
 -Execute the file <i>Play.exe</i>
 <br><br>
@@ -106,26 +106,94 @@ This is an outline of all the features in different components of the game.
 <br><br>
 <a href="#up">Go Up</a>
 <h2 id="graphics">Graphics and Animations</h2>
-Gun’em Down is a 3D never ending machine gun survival game. The player is
-a machine gun nest that can rotate (but not move) 360 degrees, and shoots the approaching hordes of enemies. Endless waves of monsters spawn in random corners of the screen and attack the player. You can try to get a high score but as the apocalypse engulf the earth, you know deep inside that there’s no way out alive on the game!
+Gun’em Down is a 3D game, the elements of the game wold where lay out as indicated on the
+game description and Unity3D graphic engines delivers the rendering. All VFX were
+downloaded from the asset store, and were created by graphic designer at professional levels.
+Nonetheless, there were some parameters that I modified on my own in order to achieve a
+graphical interface I found suitable for the game. For instance, I decided that there should be
+two different sources of light: one that is from above, so all the elements where easy to
+identify, and there was a second light source from the front and with an downwards angle in
+order to generate shadows that will add a dramatic effect to the stage. I configured Unity3D
+for optimal high performance and low memory in mind.
+Some of the graphics where kept in the background, such as the trees that made the forest that
+did not had any physics of scripts applied to them. There is only one short animation that
+does not depends on physics on my game implementation: that is the animation of the
+zombies walking. These animation is very well done, it follows logics of a rag doll physics
+scheme. Animation frame rate are the same on every instantiated object, the animation loops
+continuously, there were no transitions necessary, and is played at normal speed. I achieved
+this by creating a prefab and an Animator object.
 <br><br>
 <a href="#up">Go Up</a>
 <br><br>
 <h2 id="architecture">Game Architecture</h2>
-Gun’em Down is a 3D never ending machine gun survival game. The player is
-a machine gun nest that can rotate (but not move) 360 degrees, and shoots the approaching hordes of enemies. Endless waves of monsters spawn in random corners of the screen and attack the player. You can try to get a high score but as the apocalypse engulf the earth, you know deep inside that there’s no way out alive on the game!
+Most of the architecture of the game relies on Unity3D’s engine. Unity3D’s architectures
+provides with some sort of encapsulation, so I guess the essential engines, that provides the graphic rendering and physics, are hidden to me. But there were some patterns and
+organization that I implemented on my game specific code. I tried to avoid an ad hoc
+architecture and strive for a modular architecture system instead. I guess I end up with
+something in the middle, most of my efforts were dedicated to the understanding of the
+Unity3D engine. For instance, I tried to keep all assets separated in different folders as
+recommended on the lecture, and all my scripts separated and as independent form each other
+as possible, I avoided cluttered code, and strived for low coupling for all scripts handling different functionalities and controllers of the game. Furthermore, I could group my scripts in the following manner:
+
+<h3>Control Scripts</h3>
+All scripts that dealt with the direct control of different parts of the game, these are:
+GameController.cs: all functionalities that control the video game interface, including,
+keeping a score displaying ammunition, when the game was over and restart menu.
+PlayerController.cs: all functionalities that control the main character (player object) in this case a machine gun nest. This includes not only rotation of the character but spawning shots and other fire related methods, such as upgrade, downgrade, keep track of ammo, fire rate and a special weapon too.
+ZombieController.cs: all functionalities that control the enemies (zombies), including speed and physics.
+
+<h3>Spawn Scripts</h3>
+All scripts that were used to provide game flow by spawning different object in the game:
+SpawnAmmo.cs: everything necessary to spawn ammo boxes, including where, when and at
+what rate.
+SpawnBoxes.cs: everything necessary to spawn crates, including where, when and at what
+rate.
+SpawnZombies.cs: everything necessary to spawn enemies, including where, when and at
+what rate.
+
+<h3>Physics and Collition Scripts</h3>
+All scripts that dealt directly with physics on Unity3D and the collision of different objects in the game:
+-Shot.cs: speed and physics used on the projectiles.
+-Rotate.cs: tumbler speed and physics used on the rotation of different objects in the game.
+-ContactDestroy.cs: this is one of the central scripts to the unfolding of the game. This script deals with the collision of the projectiles with every possible game object and the spawning of special items.
+BoundaryDestroy.cs: this is a workaround for destroying objects that are no longer relevant to the game.
+
+<br>
+There is a small number design patterns that I have implemented, directly or indirectly, in my project. The main player could have been a singleton as there is only one instance in the entire game. All three spawn scripts (SpawnAmmo, SpawnBoxes, SpawnZombies) implement
+a factory pattern. Moreover, some sort of observer pattern is implemented to update the shots fired from the PlayerController script to the GameController script in order to display correctinformation on the score and ammunition left. Most of these patterns were implemented using Unity3D build in capabilities, for example using the method Instantiate for the factory pattern. Moreover, object oriented programming is applied all around the game. The simulation models real life and imaginary objects and characters. Inheritance and
+polymorphism are also implemented. One example is the content of the crates, that have
+similar functionalities an work in a similar way. This is provided on Unity3D with a very
+intuitive user interface, where game objects can be easily duplicated and modified from the
+parameters options on the component system, and different prefabs can be created of a
+seemingly similar game object that olds different parameters and characteristics.
 <br><br>
 <a href="#up">Go Up</a>
 <br><br>
 <h2 id="physics">Physics</h2>
-Gun’em Down is a 3D never ending machine gun survival game. The player is
-a machine gun nest that can rotate (but not move) 360 degrees, and shoots the approaching hordes of enemies. Endless waves of monsters spawn in random corners of the screen and attack the player. You can try to get a high score but as the apocalypse engulf the earth, you know deep inside that there’s no way out alive on the game!
+Once again, all physics were handled by Unity3D engine. But in order to use the framework
+provided, I had to include a RigidBody element to the objects that required some action
+involving physics. In order to handle physics and collisions without any major problems, I
+separated both parts, graphical and physical. This was particularly useful for the content of
+the crates, where the VFX part is a rotating prefab, but I wouldn’t want the collision volumes
+(ObjectCollider) to collide with the player or each other, so the colliders are separated and the
+final prefab is unified using an empty game object. Most of the collisions, that are central in a
+game of this nature, are in the script ContactDestroy. Since there are lots of objects on the
+screen, Unity3D Tags system is implemented to differentiate among all different objects in
+the game world.
+Direction and velocity to determining the trajectory of a moving objects, such as the shots
+and the zombies, and rotation of pick up objects were handled on the scripts Shot.cs and
+Rotate.cs. Different factors come into play for different game objects. For instance, allenemies needed to be instantiated in a rotation that would present a real threat to the player,
+velocities should not be too slow or too fast, same with the rotation of the player and the pick
+up items. Mostly rigid body dynamics were modified on each of the prefabs instance, this
+includes gravity, mass, and angular drag.
+For all game objects involved, I used simplified collision volumes in order the optimize
+collision detection, including, spheres, capsules and boxes. This will save computation time
+and, since there is only one static camera angle, it won’t interfere with the user experience.
 <br><br>
 <a href="#up">Go Up</a>
 <br><br>
 <h2 id="assets">List of Assets</h2>
-Gun’em Down is a 3D never ending machine gun survival game. The player is
-a machine gun nest that can rotate (but not move) 360 degrees, and shoots the approaching hordes of enemies. Endless waves of monsters spawn in random corners of the screen and attack the player. You can try to get a high score but as the apocalypse engulf the earth, you know deep inside that there’s no way out alive on the game!<br>
+Here's a detailed list of all the assets I used from Unity3D asset store<br>
 <ul>
 <li>ss</li>
 <li>ss</li>
