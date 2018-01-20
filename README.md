@@ -1,5 +1,5 @@
 <h1 id="up"> Gun'em Down </h1>
-A 3D, never-ending, machine gun, survival game created using Unity3D's engine and C#.<br>
+A three-dimensional, never-ending, machine gun, survival game created using Unity3D's engine and C#.<br>
 <h1>Index</h1>
 <a href="#run">Instructions to download and run the game</a><br>
 <a href="#intro">Game Overview</a><br>
