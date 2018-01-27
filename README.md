@@ -26,12 +26,10 @@ You can download this game for free. <a href="https://www.dropbox.com/sh/nrkd4lo
 -Execute the file <i>Play.exe</i> <br>
 
 <h3>On a Mac system</h3>
--Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided above</a><br>
--Execute the file <i>Play.exe</i> <br>
+<i>Coming Soon!</i> <br>
 
 <h3>On a Linux system</h3>
--Download the game from <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank"> the link provided above</a><br>
--Execute the file <i>Play.exe</i>
+<i>Coming Soon!</i> <br>
 <br><br>
 <a href="#up">Go Up</a>
 <br><br>
