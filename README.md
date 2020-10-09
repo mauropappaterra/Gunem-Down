@@ -19,7 +19,7 @@ A three-dimensional, never-ending, machine gun, survival game created using Unit
 <br>
 
 <h2 id="run">Instructions to run the game</h2>
-You can download this game for free. <a href="https://www.dropbox.com/sh/nrkd4lo5xq2ne5c/AAC7Ug149DK6lMnsTn9crcnMa?dl=0" target="_blank">You can download the full game from Dropbox following this link!</a>. This is a multiplatform game and it can run on Windows, Mac and Linux systems.<br>
+You can download this game for free. <a href="https://www.dropbox.com/sh/cy72r5wi6cjojri/AAASKwfcZgsQzFQ4aAng8fdqa?dl=0" target="_blank">You can download the full game from Dropbox following this link!</a>. This is a multiplatform game and it can run on Windows, Mac and Linux systems.<br>
 
 <h3>On a MS Windows system</h3>
 -Download the game from <a href="https://www.dropbox.com/sh/cy72r5wi6cjojri/AAASKwfcZgsQzFQ4aAng8fdqa?dl=0" target="_blank"> the link provided above</a><br>
